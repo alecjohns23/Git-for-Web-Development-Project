@@ -1,0 +1,84 @@
+CODEPEN LINK : https://codepen.io/alecjohns23/pen/WNQeoRz?editors=1100
+
+1. What is Semantic HTML? 
+HTML that gives meaning to the page.
+    2. What is HTML used for? 
+html is used to create webpages. 
+    3. What is an attribute and where do we put it? 
+attributes provide additional information about an element. 
+specified in the start tag. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+H1 is the main title of your page and should only be used once. 
+    5. Name two tags that have required attributes
+H1-6 make the text between their opening and closing tags bold and large.
+the blink tag makes the text between tags blink. 
+    6. What do we put in the head of our HTML document? 
+information used by browsers that is not visable to users. 
+    7. What is an id? 
+used to give elements a unique identification 
+    8. What elements can I add an id to? 
+any element in the html doc. ID must be unique. 
+    9. How many times can I use the same id on a page? 
+A ID should only be used once in a document. 
+    10. What is a class? 
+used to define equal styles for elements with the same class name. 
+    11. What elements can I add a class to? 
+all
+    12. How many times can I use the same class on a page? 
+as many times as needed
+    13. How do I get my link to open in a new tab?
+add a target+"_blank" attribute to your links 
+    14. What is the alt attribute used for? 
+provides alternative information for an image if a user for some reason can not view it. 
+    15. How do I reference an id?
+#iD
+    16. What is the difference between a section and a div
+section means that the content inside is grouped and should appear as an entry in an outline of the page. A div does not convey any meaning. 
+    17. What is CSS used for? 
+describes how html is seen on screen 
+    18. How to we select an element? Example - every h2 on the page
+Element {}
+h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+iD's are unique to one element and a class is not and can be used on multiple elements
+    20. How do we select classes in CSS?
+.className
+    21. How do we select a p element with a single class of “human””?
+.human p{}
+    22. What is a parent child selector? When would this be useful? 
+selects all elements that are a child of the specified element 
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar a{}
+    24. What is a pseudo selector?
+used to define  a special state of an element 
+keywords start with :
+    25. What do we use the change the spacing between lines?
+use the line-height property. 
+    26. What do we use to change the spacing between letters?
+letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+border-width: 1px
+border-style: dotted
+bordor-color: black
+    29. How do I select everything on the page? 
+*
+    30. How do I write a comment in CSS?
+/*
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm
+    34. Why should I use version control? 
+if a mistake is made you can go into previous versions to see what went wrong. 
+    35. How often should I commit to github?
+about every 20 minutes or whenever you feel something important was done and you are at a stopping point. 
+    36. What is the command we would use to push our repo up to github? 
+git push origin alec-johns
+    37. Walk me through Lambda's git flow. 
+you need to clone the project in bash, then create your checkout brand using (git checkout -b alec-johns). you are then ready to work on your project. when at a stopping point you then (git add .) then (git commit -m "Name") then (git push origin alec-johns)
